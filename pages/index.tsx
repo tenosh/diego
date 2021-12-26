@@ -8,7 +8,7 @@ import React from "react";
  * @return {JSX.Element} The JSX code for the home page.
  */
 export default function Home() {
-  const diego = "eldiego.eth";
+  const message = "trying huskyh";
   return (
     <div className={styles.container}>
       <Head>
