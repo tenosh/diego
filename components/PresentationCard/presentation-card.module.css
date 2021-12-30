@@ -1,0 +1,19 @@
+.main-tittle {
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: hue 5s infinite linear;
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
