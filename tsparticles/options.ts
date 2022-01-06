@@ -1,4 +1,5 @@
-export const optionOne = {
+import { ISourceOptions } from "react-tsparticles";
+export const optionOne: ISourceOptions = {
   fpsLimit: 60,
   particles: {
     number: {
@@ -60,7 +61,7 @@ export const optionOne = {
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 2,
       direction: "none",
       random: false,
       straight: false,
@@ -97,7 +98,6 @@ export const optionOne = {
         size: 40,
         duration: 2,
         opacity: 0.8,
-        speed: 3,
       },
       repulse: {
         distance: 200,
@@ -120,7 +120,7 @@ export const optionOne = {
   },
 };
 
-export const optionTwo = {
+export const optionTwo: ISourceOptions = {
   autoPlay: true,
   background: {
     color: {

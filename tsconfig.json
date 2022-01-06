@@ -26,7 +26,11 @@
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
       "@pages/*": ["pages/*"],
-      "@layouts/*": ["layouts/*"]
+      "@layouts/*": ["layouts/*"],
+      "@utils/*": ["utils/*"],
+      "@context/*": ["context/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@tsparticles/*": ["tsparticles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
